@@ -113,5 +113,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <!-- my script -->
 	<script src="../js/script.js"></script>
+		<script>
+		window.onload = function() {
+			const getfullyear = document.querySelector('#getfullyear')
+			const today = new Date();
+			const year = today.getFullYear();
+			getfullyear.innerHTML = year;
+		}
+	</script>
+	
 </body>
 </html>
