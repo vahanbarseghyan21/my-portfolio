@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="black">
+	<title>Vahan Barseghyan CV</title>
+
+	<!-- favicon -->
+	<link rel="shortcut icon" type="image/x-icon" href="../img/cv.png">
+
+	<!-- material-icons -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- my style -->
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body >
+	
+	<div class="container-fluid">
+	    <div class="row">
+			<!-- Navbar goes here -->
+	      	<div class="col s12 m4 l0"> 
+	        	<div id="mySidenav" class="sidenav1">
+			  		<a class="closebtn" style="cursor: pointer;" onclick=" playAudio(); closeNav()">&times;</a>
+			  		<audio id="myAudio">
+					  <source src="../music/0.mp3" type="audio/mpeg">
+					</audio>
+			  		<img src="../img/v.jpg" class="my-img-logo responsive-img materialboxed " alt="placeholder+image">
+
+			  		<p class="btn my-name white-text text-darken-2 center-align waves-effect waves-teal">
+			  			Vahan Barseghyan
+			  		</p>
+
+			  		<a href="../index.html" class="waves-effect waves-teal">
+			  			<i class="material-icons left">home</i>Home
+			  		</a>
+			  		<a href="project.html" class="waves-effect waves-teal">
+			  			<i class="material-icons left">code</i>Project
+			  		</a>
+			  		<a href="about.html" class="waves-effect waves-teal">
+			  			<i class="material-icons left">accessibility</i>About
+			  		</a>
+			  		
+
+			  	</div>
+	      	</div>
+	      	<!-- Page Layout here -->
+	      	<div class="col s12 m8 l12" >
+
+	        	<div id="main">
+
+			  		<a class="btn-floating pulse" ><i class="material-icons"style="font-size:30px;" onclick=" playAudio(); openNav()">dehaze</i></a>
+
+			  		<div class="parallax-container">
+					    <div class="parallax"><img src="../img/about-1.jpg"></div>
+					</div>
+				    <div class="section white center-align">
+				      	<div class="row">
+				        	<p>
+				        		If you want to see my works go bye <a href="project.html" onclick=" playAudio();" target="_blank" style="cursor: pointer;"><b>THIS</b></a> link!
+				        		<br>
+				        		<audio id="myMus">
+								  <source src="../music/erg.mp3" type="audio/mpeg">
+								</audio>
+				        		You can turn <a style="cursor: pointer;" onclick="myMusPlayAudio();"><b>ON</b></a> \ <a  style="cursor: pointer;" onclick="myMusPauseAudio();"><b>OFF</b></a> my favorite music! </p>
+				        	<p>
+				        		Hello! Glade to see you here <br>
+								This is a little about me <br>
+								Born in 1997.12.16,Armenia <br>
+								School from 2004 to 2015 <br>
+								Chess From 2015 to 2017 <br>
+								Now I'm a full-stack developer!
+							</p>	
+				        	<h5 class="header">CONTACT INFORMATION</h5>
+				        	<p>
+				        		Email: vahanbarseghyan21@gmail.com <br>
+								Telephone: 	+(374) 93-66-33-85 ,
+											+(374) 93-28-21-95
+							</p>
+							<a href="../img/mycv.pdf" class="btn my-name white-text text-darken-2 center-align waves-effect waves-teal" download="mycv.pdf">Download CV</a>
+				      	</div>
+				    </div>
+				    <div class="parallax-container">
+				      	<div class="parallax"><img src="../img/about-2.jpg"></div>
+				    </div>
+				</div>
+	      	</div>
+
+	    </div>
+	    <div class="row">
+    		<div class="section white center-align">
+		        	<p class="grey-text text-darken-3 lighten-3 " >Copyright © <span id="getfullyear">1</span>, <span class="red-text">&#10084;</span> Vahan Barseghyan. All rights reserved.</p>
+		    </div>
+	    </div>
+    </div>
+
+
+
+	
+	
+
+
+
+
+
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- my script -->
+	<script src="../js/script.js"></script>
+</body>
+</html>

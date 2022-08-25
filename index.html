@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Vahan Barseghyan CV</title>
+	<meta name="theme-color" content="black">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- favicon -->
+	<link rel="shortcut icon" type="image/x-icon" href="img/cv.png">
+
+	<!-- material-icons -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- my style -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body >
+	
+	<div class="container-fluid">
+	    <div class="row">
+			<!-- Navbar goes here -->
+	      	<div class="col s12 m4 l0"> 
+	        	<div id="mySidenav" class="sidenav1">
+			  		<a class="closebtn" style="cursor: pointer;" onclick=" playAudio(); closeNav();">&times;</a>
+			  		<audio id="myAudio">
+					  <source src="music/0.mp3" type="audio/mpeg">
+					</audio>
+			  		<img src="img/v.jpg" class="my-img-logo responsive-img materialboxed " alt="placeholder+image">
+
+			  		<p class="btn my-name white-text text-darken-2 center-align waves-effect waves-teal">
+			  			Vahan Barseghyan
+			  		</p>
+
+			  		<a href="index.html" class="waves-effect waves-teal">
+			  			<i class="material-icons left">home</i>Home
+			  		</a>
+			  		<a href="pages/project.html" class="waves-effect waves-teal">
+			  			<i class="material-icons left">code</i>Project
+			  		</a>
+			  		<a href="pages/about.html" class="waves-effect waves-teal">
+			  			<i class="material-icons left">accessibility</i>About
+			  		</a>
+			  		
+
+			  	</div>
+	      	</div>
+	      	<!-- Page Layout here -->
+	      	<div class="col s12 m8 l12" >
+
+	        	<div id="main">
+
+			  		<a class="btn-floating pulse" ><i class="material-icons"style="font-size:30px;" onclick=" playAudio(); openNav();">dehaze</i></a>
+
+					<div id="particles">
+						<div class="container-particles">
+							<h2>Full-Stack Developer</h2>
+						</div>
+					</div>
+
+
+			  		
+				</div>
+	      	</div>
+
+	    </div>
+
+    </div>
+
+
+
+	
+	
+
+
+
+    <!-- particles -->
+    <script src="js/particles.js"></script>
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	<!--Start of Tawk.to Script-->
+
+	<!-- GetButton.io widget -->
+<script type="text/javascript">
+    (function () {
+        var options = {
+            telegram: "vahan_bar", // Telegram bot username // https://t.me/vahan_bar
+            call_to_action: "Message us", // Call to action
+            position: "right", // Position may be 'right' or 'left'
+        };
+        var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+    })();
+</script>
+<!-- /GetButton.io widget -->
+
+    <!-- my script -->
+	<script src="js/script.js"></script>
+</body>
+</html>
